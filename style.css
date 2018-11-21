@@ -1,0 +1,91 @@
+body {
+	font: Arial, helvetica, sans;
+}
+#container {
+	width: 1000px;
+	/*    border:1px solid grey;*/
+	margin: 0 auto;
+}
+#header {
+	height: 100px;
+	padding: 1 0px 0px;
+}
+
+#brand {
+	float: left;
+}
+
+h1 a {
+	font-size: 50px;
+	font-weight: 100;
+	color: #861bbf;
+	text-decoration: none;
+}
+#introduction {
+	background: linear-gradient(#e5f2bb, #b7e952);
+	padding: 20px;
+	margin: 16px 0;
+}
+
+#introduction h3 {
+	font-size: 45px;
+	color: #316901;
+	font-weight: normal;
+}
+
+#introduction p {
+	font-size: 25px;
+	color: #629a59;
+	text-align: justify;
+}
+
+#menu {
+	height: 70px;
+	background: linear-gradient(#f8f594, #d5d533);
+	padding: 7px 0;
+}
+ul {
+	list-style: none;
+}
+
+#menu ul li {
+	float: left;
+	padding: 0px 30px;
+	height: 30px;
+	border-right: 1px solid #5d12e7;
+	line-height: 30px;
+}
+ul li {
+	padding: 0px 30px;
+	height: 30px;
+	border-right: 1px solid #5d12e7;
+	line-height: 30px;
+}
+#menu ul li:last-child {
+	border-right: none;
+}
+
+#menu ul li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 17;
+	color: #5d12e7;
+	transition: font-size .5s ease;
+}
+
+#menu ul li a:hover,
+#menu ul li a.active {
+	font-size: 20px;
+	font-weight: bold;
+	color: #c34fdb;
+}
+.footer {
+	float: bottom;
+	height: 60px;
+	background: linear-gradient(#f6f390, #d5d533);
+	padding: 10px 30px;
+	margin-top: 15px;
+}
+#brand {
+	float: left;
+}
