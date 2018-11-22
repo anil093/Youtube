@@ -18,30 +18,29 @@ body {
 h1 a {
 	font-size: 50px;
 	font-weight: 100;
-	color: #861bbf;
+	color: black;
 	text-decoration: none;
 }
 #introduction {
-	background: linear-gradient(#e5f2bb, #b7e952);
+	background: linear-gradient(white, whitesmoke);
 	padding: 20px;
 	margin: 16px 0;
 }
-
 #introduction h3 {
 	font-size: 45px;
-	color: #316901;
+	color: Black;
 	font-weight: normal;
 }
 
 #introduction p {
-	font-size: 25px;
-	color: #629a59;
+	font-size: 30px;
+	color: black;
 	text-align: justify;
 }
 
 #menu {
 	height: 70px;
-	background: linear-gradient(#f8f594, #d5d533);
+	background: linear-gradient(red, darkred);
 	padding: 7px 0;
 }
 ul {
@@ -69,20 +68,24 @@ ul li {
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 17;
-	color: #5d12e7;
+	color: white;
 	transition: font-size .5s ease;
 }
 
-#menu ul li a:hover,
+#menu ul li a:hover {
+	font-size: 20px;
+	font-weight: bold;
+	color: whitesmoke;
+}
 #menu ul li a.active {
 	font-size: 20px;
 	font-weight: bold;
-	color: #c34fdb;
+	color: whitesmoke;
 }
 .footer {
 	float: bottom;
 	height: 60px;
-	background: linear-gradient(#f6f390, #d5d533);
+	background: linear-gradient(red, darkred);
 	padding: 10px 30px;
 	margin-top: 15px;
 }
